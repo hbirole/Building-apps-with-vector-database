@@ -1,7 +1,8 @@
 # 🧠 Building Applications with Vector Databases
 
-This project showcases six powerful application types built using vector databases. It is based on the [**Building Applications with Vector Databases**](https://www.deeplearning.ai/short-courses/vector-database-applications/) course by **DeepLearning.AI** and **Tim Tully**, with examples implemented using **Pinecone** (but adaptable to other DBs like FAISS, Chroma, Qdrant, Weaviate, pgvector, etc.).
+This project showcases six powerful application types built using vector databases. 
 
+Have Fun! Reach out if you have any questions or need further assistance: https://himanibirole.com/
 ---
 
 ## 📚 Table of Contents
@@ -42,13 +43,13 @@ This repo provides hands-on examples of key vector-powered applications:
 
 ### 🔧 Requirements
 
-Install with:
+##Install with:
 
 ```bash
 pip install -r requirements.txt
 
 
-# Core dependencies
+##Core dependencies
 langchain>=0.2.0
 openai>=1.0.0
 pinecone-client>=3.0.0
@@ -58,27 +59,27 @@ numpy
 scikit-learn
 matplotlib
 
-# Embeddings
+##Embeddings
 sentence-transformers
 transformers
 torch
 
-# Optional: Visualization/UI
+##Optional: Visualization/UI
 streamlit
 plotly
 
-# Vector DB alternatives
+##Vector DB alternatives
 faiss-cpu
 chromadb
 qdrant-client
 weaviate-client
 pgvector
 
-# Notebook support
+##Notebook support
 jupyterlab
 ipykernel
 
-*Project Structure*
+##*Project Structure*
 .
 ├── requirements.txt
 ├── notebooks/                  # Each notebook represents an application
@@ -98,11 +99,10 @@ ipykernel
 
 ---
 
-🙏 Acknowledgments
+#🙏 Acknowledgments
 This project is inspired by the Building Applications with Vector Databases course created by Tim Tully and presented by DeepLearning.AI, in partnership with Pinecone.
 
-Special thanks to:
+##Special thanks to:
 
-DeepLearning.AI for educational content and inspiration
-
-Pinecone for vector database infrastructure and tutorials
+1.DeepLearning.AI for educational content and inspiration
+2.Pinecone for vector database infrastructure and tutorials
